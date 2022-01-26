@@ -1,12 +1,10 @@
-FROM python:3.9
-
-ENV PYTHONUNBUFFERED 1
+FROM node:17-alpine3.14
 
 COPY . /usr/code/
 WORKDIR /usr/code/
 
-RUN pip install pipenv
-RUN /bin/sh -c pipenv install --system
+RUN npm install
+CMD ["node", "npm run start"]
 
 EXPOSE 3000
 

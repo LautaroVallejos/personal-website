@@ -33,7 +33,7 @@ export default function Profile() {
                     <div className='profile-details-name'>
                         <span className='primary-text'>
                             {" "}
-                            Hola mucho gusto!, Soy <span className='highlighted-text'>Lautaro</span>
+                            Hola, es un placer tenerte justo aqui!, Soy <span className='highlighted-text'>Lautaro</span>
                         </span>
                     </div>
                     <div className='profile-details-role'>
